@@ -1,0 +1,61 @@
+// .headerArea-pc {
+//     dl {
+//         dt {
+//             a{
+//                 padding-top: 7px;
+//                 padding-bottom: 12px;
+//                 color: #000;
+//                 background: url(/shared/images/2018/headerArea-nav-accordion_dt.png) center bottom no-repeat;
+//                 text-decoration: none;
+//                 display: block;
+//             }
+//         }
+//     }
+// }
+.headerArea-nav__inline-accordionBox {
+
+    width: 500px;
+    text-align: center;
+    .div-box{
+        width: 50%;
+        a{
+            padding-top: 7px;
+            padding-bottom: 12px;
+            color: #000;
+            background: url("./../images/2018/headerArea-nav-accordion_dt.png") center bottom no-repeat;
+            text-decoration: none;
+        } 
+    }
+}
+
+.headerArea-nav__inline-accordionBox:before{
+    content: '';
+    width: 1px;
+    height: 100%;
+    background: #d4d4d4;
+    position: absolute;
+    top: 0;
+    left: 50%;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+  } 
+
+ul.tabs-content {
+    margin:0px;
+    border-bottom: 1px solid;
+    padding-bottom: .3rem;
+    li{
+        border:1px solid black;
+
+        &:before{
+            content: none;
+         }
+     }
+    }
+
+    .dropdown.payment-dd:focus-within .dropdown-menu {
+        opacity:1;
+        transform: translate(0) scale(1);
+        visibility: visible;
+      }

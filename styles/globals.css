@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* .dropdown:hover .dropdown-menu {
+    display: block;
+  } */
+
+/* .headerArea-nav__inline-accordionBox a{
+    padding-top: 7px;
+    padding-bottom: 12px;
+    color: #000;
+    background: url("/images/2018/headerArea-nav-accordion_dt.png") center bottom no-repeat;
+    text-decoration: none;
+} */
