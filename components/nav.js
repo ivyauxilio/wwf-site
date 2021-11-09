@@ -79,7 +79,7 @@ function Nav(){
 			</div>
 		</nav>
 	</div>
-	<div className="headerArea-sp">
+	<div className="headerArea-sp" style={{display:'none'}}>
 		<nav className="headerArea-nav clearfix">
 			<div className="headerArea-nav__inline clearfix">
 				<p className="headerArea-nav__logo"><a href="https://www.wwf.or.jp/"><img src="https://www.wwf.or.jp/shared/svg/icons_logo_sd.svg" alt="WWFジャパン"/></a></p>

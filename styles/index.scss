@@ -48,9 +48,16 @@ ul.tabs-content {
     li{
         border:1px solid black;
 
+        @media (max-width: 425px) {  
+            a{
+            font-size: 14px;
+            padding:.5rem 2rem;
+            }
+         }
         &:before{
             content: none;
          }
+        
      }
     }
 

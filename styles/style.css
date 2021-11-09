@@ -1890,7 +1890,16 @@ footer a:hover, main a:hover {
 		padding-bottom: 2px;
 	}
 }
-
+/* @media screen and (min-width: 768px) {
+	.table-tab{
+		width: 1000px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.table-tab{
+		width: 100%;
+	}
+} */
 @media screen and (max-width: 756px) {
 	.sectionBody__sp {
 		margin: 0 auto;
